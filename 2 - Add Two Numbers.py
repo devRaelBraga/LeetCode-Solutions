@@ -5,6 +5,8 @@
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+
+        #42ms beats 99,41%
         carry = 0
 
         result = ListNode()
